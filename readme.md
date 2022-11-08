@@ -1,7 +1,7 @@
 # Инструкция по настройке и сборке:
 
 0. Создать аккаунт в Yandex Cloud :) 
-1. Далее на ПК с которого будут производится все действия: 
+1. Далее на ПК/ВМ с которого будут производится все действия: 
    curl -sSL https://storage.yandexcloud.net/yandexcloud-yc/install.sh | bash
 2. Получить токен по ссылке - https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb
 3. Выполните команду yc init для настройки вашего профиля CLI.
