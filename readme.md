@@ -19,13 +19,13 @@
 ```bash 
    curl -sSL https://storage.yandexcloud.net/yandexcloud-yc/install.sh | bash
 ```
-2. Получить токен по ссылке - https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb
+2. Получить токен по [ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb)
 3. Выполните команду для настройки вашего профиля CLI.
 
 ```bash
 yc init 
 ```
-4. Скачать дистрибутив Terraform для вашей платформы из зеркала - https://hashicorp-releases.yandexcloud.net/terraform/
+4. Скачать дистрибутив Terraform для вашей платформы из [зеркала](https://hashicorp-releases.yandexcloud.net/terraform/)
 5. (если положить в /usr/bin то не надо) 
 ```bash 
 export PATH=$PATH:/path/to/terraform
