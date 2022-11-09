@@ -9,6 +9,7 @@
 5. export PATH=$PATH:/path/to/terraform (если положить в /usr/bin то не надо)
 6. Добавить зеркало terraform yandex: nano .terraformrc:
 
+```bash
 provider_installation {
   network_mirror {
     url = "https://terraform-mirror.yandexcloud.net/"
@@ -18,6 +19,7 @@ provider_installation {
     exclude = ["registry.terraform.io/*/*"]
   }
 }
+```
 
 7.  Создать авторизованный ключ сервисного провайдера: yc iam key create --service-account-name <имя_сервисного_аккаунта> --output key.json (сам сервисный аккаунт должен быть создан в веб-интерфейсе заранее)
 8.  Установить Jenkins на управляющий host
